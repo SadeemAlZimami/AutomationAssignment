@@ -1,4 +1,4 @@
-# Automation Test Suite
+# Automation Test Assignment
 
 This project contains automated tests for validating subscription packages and API functionalities. The tests are written using Selenium WebDriver, Rest Assured and TestNG, and the results are logged using ExtentReports.
 
