@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Test Suite" verbose="1" preserve-order="true" parallel="false">
+
+    <!-- test for subscription-related tests -->
+    <test name="Subscription Test">
+        <classes>
+            <class name="tests.SubscriptionTest"/>
+        </classes>
+    </test>
+
+    <!-- test for API-related tests -->
+    <test name="API Test">
+        <classes>
+            <class name="tests.ApiTest"/>
+        </classes>
+    </test>
+
+</suite>
